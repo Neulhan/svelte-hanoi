@@ -22,15 +22,20 @@
     height: 400px;
     border-radius: 4px;
     display: flex;
+    flex-direction: column;
   }
   h1 {
     margin: auto;
     text-align: center;
+  }
+  img {
+    margin: auto;
   }
 </style>
 
 <div class="complete-wrapper" on:click={close}>
   <div class="modal">
     <h1>{count}회 만에 성공!</h1>
+    <img src="오이.jpg" alt="" width="300" />
   </div>
 </div>

@@ -2,7 +2,7 @@
   import Tower from "./Tower.svelte";
   import Complete from "./Complete.svelte";
   import { drop } from "./sound.js";
-  let length = 7;
+  let length = 1;
   let show = false;
 
   const close = () => {
